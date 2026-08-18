@@ -1,3 +1,4 @@
+
 # Safety Assistant Agent
 
 A privacy-safe reference implementation of a workplace safety and equipment-certification assistant built with Microsoft Copilot Studio, Microsoft 365, Teams, and SharePoint.
@@ -42,8 +43,7 @@ See [Architecture](docs/ARCHITECTURE.md) for the component and trust-boundary de
 |   |-- ARCHITECTURE.md
 |   `-- PRIVACY.md
 |-- examples/
-|   |-- agent-instructions.md
-|   `-- certifications.sample.json
+|   `-- agent-instructions.md
 |-- src/
 |   |-- actions/
 |   |-- topics/
@@ -82,4 +82,3 @@ The public repository was created as a clean-room representation. Production exp
 ## License
 
 Released under the [MIT License](LICENSE).
-
