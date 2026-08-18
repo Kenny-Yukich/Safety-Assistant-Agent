@@ -1,0 +1,15 @@
+
+displayName: Safety Assistant Agent
+authenticationMode: Integrated
+authenticationTrigger: Always
+configuration:
+  generativeActionsEnabled: true
+  semanticSearchEnabled: true
+  fileAnalysisEnabled: true
+channels:
+  - MicrosoftTeams
+  - Microsoft365Copilot
+notes: >-
+  Representative configuration only. Validate current Copilot Studio export syntax,
+  channel settings, and authentication requirements in your own environment.
+
