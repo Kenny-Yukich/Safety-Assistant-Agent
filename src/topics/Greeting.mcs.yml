@@ -1,0 +1,9 @@
+
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  intent: Greeting
+  actions:
+    - kind: SendActivity
+      activity: Hello. How can I help with workplace safety or certification status?
+
