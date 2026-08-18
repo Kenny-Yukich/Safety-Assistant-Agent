@@ -1,0 +1,7 @@
+
+connectionReferences:
+  - connectionReferenceLogicalName: YOUR_SHAREPOINT_CONNECTION_REFERENCE
+    connectorId: /providers/Microsoft.PowerApps/apis/shared_sharepointonline
+    displayName: SharePoint Online
+    notes: Do not commit tenant-specific connection IDs or credentials.
+
