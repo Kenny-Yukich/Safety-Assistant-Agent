@@ -1,0 +1,10 @@
+
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnUnknownIntent
+  actions:
+    - kind: SendActivity
+      activity: >-
+        I could not confidently match that request. Please rephrase it as a safety
+        procedure, equipment question, or certification-status question.
+
