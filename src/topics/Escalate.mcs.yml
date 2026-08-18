@@ -1,0 +1,11 @@
+
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnEscalate
+  actions:
+    - kind: SendActivity
+      activity: >-
+        For an immediate threat to life or health, contact local emergency services
+        and follow your organization's emergency action plan. For non-emergency
+        questions, contact your designated safety representative.
+
