@@ -1,0 +1,18 @@
+
+kind: TaskDialog
+modelDisplayName: Get Certification Records
+modelDescription: >-
+  Retrieves only the equipment-certification records the signed-in user is
+  authorized to view. Enforce authorization in the data layer.
+action:
+  connectorId: /providers/Microsoft.PowerApps/apis/shared_sharepointonline
+  connectionReference: YOUR_SHAREPOINT_CONNECTION_REFERENCE
+  operationId: GetItems
+  parameters:
+    dataset: https://YOUR_TENANT.sharepoint.com/sites/YOUR_SITE
+    table: YOUR_LIST_ID
+    filterQuery: YOUR_SERVER_SIDE_AUTHORIZATION_FILTER
+notes: >-
+  This is a non-deployable template. Replace placeholders privately and confirm
+  least-privilege access, pagination, field selection, and error handling.
+
